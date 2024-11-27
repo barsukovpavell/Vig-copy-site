@@ -1,0 +1,132 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+.cover-titles {
+  width: auto;
+  height: 200px;
+  box-shadow: 8px 8px 15px #2d1668db;
+  border-radius: 50%;
+  background-size: cover;
+  position: relative;
+  bottom: 5px;
+  /* position: relative;
+  bottom: 250px; */
+  /* height: 300px; */
+  /* display: flex;
+  align-items: center;
+  justify-content: center;  */
+}
+
+/* .cover-titles-2{
+  width: 100%;
+  height: 300px;
+  position: relative;
+  border-radius: 15px;
+  box-shadow: 8px 8px 15px #392374db;
+} */
+
+.titles h1 {
+  color: #c7c5ccdb;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  text-transform: uppercase;
+  font-size: 50px;
+  text-shadow: 8px 8px 15px #c7c5ccdb;
+}
+
+/* .container {
+  max-width: 900px;
+  margin: auto;
+  padding-top: 30px;
+
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}  */
+
+body {
+  background: #c7c5ccdb;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  /* background-size: auto; */
+
+  margin: 0;
+  padding: 0;
+}
+
+.main-central {
+  text-align: center;
+}
+
+.container_right {
+  margin-top: 20;
+  margin-right: 10px;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+.container_left {
+  width: 200px;
+  background-color: #d1c3f108;
+  padding: 15px;
+  margin-left: 20px;
+  border-radius: 5px;
+}
+
+.portfolio {
+  width: 200px;
+  background-color: #d1c3f108;
+  padding: 15px;
+  margin-left: 20px;
+  border-radius: 5px;
+}
+
+.sidebar {
+  width: 200px;
+  background-color: #c1b0ebdb;
+  padding: 15px;
+  margin-right: 20px;
+  border-radius: 5px;
+}
+.titles {
+  background-image: url(photo/mlechnyj_put.jpg);
+  /* flex: 1; */
+  text-align: center;
+  padding: 60px 20px;
+  background-color: antiquewhite;
+  border-radius: 5px;
+  background-size: cover;
+  color: #c7c5ccdb;
+}
+
+.titles p {
+  flex: 1;
+  text-align: center;
+  padding: 15px;
+  background-color: #c7c5cc22;
+  border-radius: 5px;
+}
+
+/* .r {
+  width: 50px;
+} */
+
+.sidebar img {
+  width: 70px;
+  height: auto;
+}
+.site-contact {
+  text-align: center;
+  padding: 10px;
+  background-color: #112036be;
+  color: #c7c5ccdb;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+#tel,
+#e-l {
+  color: #759a2b;
+}
